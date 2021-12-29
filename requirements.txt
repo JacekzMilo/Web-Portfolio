@@ -8,3 +8,4 @@ django-heroku==0.3.1
 django-extensions
 django-excel
 PILLow
+whitenoise

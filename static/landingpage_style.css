@@ -12,6 +12,10 @@
       padding: 15px;
     }
 
+.text-muted {
+    color: rgb(158, 150, 137) !important;
+}
+
 .home-content
 {
     background: #181a1b;
@@ -68,6 +72,7 @@
     display: block;
     height: 650px;
     position: relative;
+    bacground: #181a1b;
 }
 
 #index-title
@@ -75,6 +80,8 @@
     background: url("./images/pexels-photo-866351.jpeg") no-repeat center center fixed;
     background-position: top;
     background-size: 2000px 1000px;
+    background-color: #181a1b;
+
 }
 
 #portfolio-title
@@ -90,6 +97,8 @@
 .container
 {
     width:100%;
+    position: relative;
+    bottom: -40px;
 }
 
 /*This is for debugging purposes to see the size of divs
@@ -114,6 +123,7 @@
 {
     font-size: 15px;
     font-weight: normal;
+    padding-top: 120px;
 }
 
 
@@ -511,5 +521,19 @@ footer
 .source
 {
     font-style: italic;
+}
+
+.text-left
+    {
+        text-align: letf;
+
+    }
+
+
+.headline {
+  letter-spacing: 3px;
+  font-weight: 400;
+  color: white;
+ padding: 70px 0px 0px 0px;
 }
 

@@ -9,10 +9,19 @@
   flex-wrap: wrap;
 }
 
+html, body {
+  overflow-x: hidden;
+background-color: #181a1b;
+}
+
 .footer {
       background-color: #181a1b;
       padding: 15px;
     }
+
+.text-muted {
+    color: rgb(158, 150, 137) !important;
+}
 
 .bg{
     background-color: #181a1b
@@ -72,6 +81,7 @@
     display: block;
     height: 650px;
     position: relative;
+
 }
 
 #index-title
@@ -79,6 +89,7 @@
     background: url("./images/road_asphalt_marking_130996_1280x720.jpg") no-repeat center center fixed;
     background-position: top;
     background-size: 2000px 1000px;
+    bacground: #181a1b;
 }
 
 #portfolio-title
@@ -94,6 +105,7 @@
 .container
 {
     width:100%;
+
 }
 
 /*This is for debugging purposes to see the size of divs
@@ -118,6 +130,7 @@
 {
     font-size: 15px;
     font-weight: normal;
+    padding-top: 120px;
 }
 
 .home-content
@@ -260,6 +273,13 @@
 }
 
 @media (max-width: 576px) {
+
+.title-description
+    {
+        padding-top: 70px;
+
+    }
+
     .title-color{
         padding: 140px 0 80px;
         height: 550px;
@@ -587,4 +607,12 @@ h2.about-header
 .source
 {
     font-style: italic;
+}
+
+.headline {
+  letter-spacing: 3px;
+  font-weight: 400;
+  color: white;
+
+  padding: 70px 0px 0px 0px;
 }
