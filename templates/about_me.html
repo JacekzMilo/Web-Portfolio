@@ -26,13 +26,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a aria-current="page" class="nav-link active text-white-50" href="./">Home</a>
+                    <a aria-current="page" class="nav-link focus text-white-150" href="./">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./items">Portfolio</a>
+                    <a class="nav-link focus text-white-150" href="./items">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./new">About me</a>
+                    <a class="nav-link active text-white-150" href="./new">About me</a>
                 </li>
             </ul>
 
@@ -40,7 +40,7 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link" target="_blank" href="https://github.com/JacekzMilo">GitHub
-                            <img src="{% static 'images/github.png' %}" alt="..." width="30" height="24"
+                            <img src="{% static 'images/github.png' %}" alt="..." width="24" height="24"
                                  class="d-inline-block align-top"></a>
                     </li>
                     <li class="nav-item">
@@ -58,15 +58,36 @@
 
 <!-- cote from https://codepen.io/savalazic/pen/QKwERN/-->
 <section class="title-color" id="index-title">
-    <div class="headline">
-        <div class="additional-margin">
-            <p style="text-align: right">I learned all my skills with different courses, Udacity, Udemy, StackOverflow.
-                With each
-                project I learn something new. Below are some of the steps of my learning journey.</p>
-            <h2 style="text-align: right">My learning journey</h2>
+    <div class="container title-container">
+        <div class="headline">
+            <div class="additional-margin">
+                <div class=" title-description">
+
+                    <p class="hidden-narrow" style="text-align: right ">I learned all my skills with different courses,
+                        Udacity, Udemy,
+                        StackOverflow.
+                        With each
+                        project I learn something new. Below are some of the steps of my learning journey.</p>
+                    <h2 class="hidden-narrow" style="text-align: right">My learning journey</h2>
+
+                </div>
+            </div>
         </div>
     </div>
 </section>
+<row class="hidden-wide">
+    <div class="headline">
+        <div class=" title-description">
+            <p class="text-center" style="text-align: right ">I learned all my skills with different courses, Udacity,
+                Udemy,
+                StackOverflow.
+                With each
+                project I learn something new. Below are some of the steps of my learning journey.</p>
+            <h2 class="text-center" style="text-align: right">My learning journey</h2>
+
+        </div>
+    </div>
+</row>
 
 <section class="home-content">
     <div class="timeline">
@@ -74,13 +95,20 @@
             <div class="timeline-item">
                 <div class="timeline-img"></div>
                 <div class="timeline-content js--fadeInLeft">
-                    <h2></h2>
-                    <div class="date">2020</div>
+                    <h2></h2><br>
+                    <div class="date">2021</div>
                     <p>
                         <a target="_blank" class="about-link"
-                           href="https://www.udacity.com/course/programming-for-data-science-nanodegree&#45;&#45;nd104">Udacity
-                            course</a>: Programming for Data Science with Python. Introduction to data wrangling and
-                        data analysis. Gained skills: Python, SQL, Git Bash.
+                           href="https://www.pluralsight.com/courses/interpreting-data-descriptive-statistics-python">Pluralsight</a>: Interpreting data using descriptive statistics with python.
+
+                    </p>
+                    <p>
+                        <a target="_blank" class="about-link"
+                           href="https://www.qwiklabs.com/public_profiles/cefdd2d1-a860-464c-a7d3-f919e32cf5a4">Google
+                            Qwiklabs</a>: Badges earned:
+                    <li>Google Cloud Computing Foundations: Infrastructure in Google Cloud</li>
+                    <li>Google Cloud Computing Foundations: Cloud Computing Fundamentals</li>
+                    <li>Transform and Clean your Data with Dataprep by Trifacta on Google Cloud</li>
                     </p>
                 </div>
             </div>
@@ -89,20 +117,12 @@
                 <div class="timeline-img"></div>
                 <div class="timeline-content js--fadeInRight">
                     <h2></h2>
-                    <div class="date">2021</div>
+                    <div class="date">2020</div>
                     <p>
                         <a target="_blank" class="about-link"
-                           href="https://www.pluralsight.com/courses/interpreting-data-descriptive-statistics-python">Pluralsight</a>:
-                        Interpreting data using descriptive statistics with python.
-                    </p>
-                    <p>
-                        <a target="_blank" class="about-link"
-                           href="https://www.qwiklabs.com/public_profiles/cefdd2d1-a860-464c-a7d3-f919e32cf5a4">Google
-                            Qwiklabs</a>:
-                        Badges earned:
-                    <li>Google Cloud Computing Foundations: Infrastructure in Google Cloud</li>
-                    <li>Google Cloud Computing Foundations: Cloud Computing Fundamentals</li>
-                    <li>Transform and Clean your Data with Dataprep by Trifacta on Google Cloud</li>
+                           href="https://www.udacity.com/course/programming-for-data-science-nanodegree&#45;&#45;nd104">Udacity
+                            course</a>: Programming for Data Science with Python. Introduction to data wrangling and
+                        data analysis. Gained skills: Python, SQL, Git Bash.
                     </p>
                 </div>
             </div>
@@ -182,7 +202,7 @@
                     <div class="col-12 text-right">
                         <p style="color: white">Python - 3</p>
                         <div class="skill-bar">
-                            <div class="skill-spec" style="width: 80.0%"></div>
+                            <div class="skill-spec" style="width: 65.0%"></div>
                             <span class="tooltiptext"> 2 years experience</span>
                         </div>
                     </div>
@@ -196,16 +216,16 @@
                 </div>
                 <div class="row">
                     <div class="col-12 text-right">
-                        <p style="color: white">Front-end-1</p>
+                        <p style="color: white">Front-end-2</p>
                         <div class="skill-bar">
-                            <div class="skill-spec" style="width: 20.0%"></div>
+                            <div class="skill-spec" style="width: 40.0%"></div>
                             <span class="tooltiptext"> HTML, CSS</span>
                         </div>
                     </div>
                     <div class="col-12 text-right">
-                        <p style="color: white">Databases-2</p>
+                        <p style="color: white">Databases-3</p>
                         <div class="skill-bar">
-                            <div class="skill-spec" style="width: 30.0%"></div>
+                            <div class="skill-spec" style="width: 60.0%"></div>
                             <span class="tooltiptext"> MySQL, SQL</span>
                         </div>
                     </div>
@@ -219,23 +239,23 @@
 
                 <div class="row">
                     <div class="col-12 text-right">
-                        <p style="color: white">Data wrangling - 2</p>
+                        <p style="color: white">Data wrangling - 3</p>
                         <div class="skill-bar">
-                            <div class="skill-spec" style="width: 35.0%"></div>
+                            <div class="skill-spec" style="width: 60.0%"></div>
                             <span class="tooltiptext">  Pandas, Numpy</span>
                         </div>
                     </div>
                     <div class="col-12 text-right">
-                        <p style="color: white">Data visualization - 2</p>
+                        <p style="color: white">Data visualization - 3</p>
                         <div class="skill-bar">
-                            <div class="skill-spec" style="width: 35.0%"></div>
+                            <div class="skill-spec" style="width: 60.0%"></div>
                             <span class="tooltiptext">  Plotly, Matplotlib</span>
                         </div>
                     </div>
                     <div class="col-12 text-right">
-                        <p style="color: white">Data visualization - 1</p>
+                        <p style="color: white">Statistics - 2</p>
                         <div class="skill-bar">
-                            <div class="skill-spec" style="width: 15.0%"></div>
+                            <div class="skill-spec" style="width: 35.0%"></div>
                             <span class="tooltiptext">  Descriptive</span>
                         </div>
                     </div>
@@ -249,10 +269,10 @@
 
                 <div class="row">
                     <div class="col-12 text-right">
-                        <p style="color: white">Python - 3</p>
+                        <p style="color: white">Supervised - 1</p>
                         <div class="skill-bar">
                             <div class="skill-spec" style="width: 5.0%">
-                                <span class="tooltiptext">waw</span>
+                                <span class="tooltiptext">NLP</span>
                             </div>
                         </div>
                     </div>
@@ -265,9 +285,9 @@
 </section>
 
 
-<div class="footer">
+<div class="footer text-muted">
     <div class="container-fluid text-center">
-        <p style="color:white">Footer Text</p>
+        <p><small>&copy; Copyright 2021</small></p>
     </div>
 </div>
 
@@ -282,3 +302,4 @@
 </html>
 
 {% endblock %}
+
